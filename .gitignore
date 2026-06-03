@@ -28,3 +28,15 @@ dist
 server/node_modules
 web/node_modules
 .json
+.env
+node_modules
+dist
+.env
+server/.env
+server/email.env
+web/.env
+# Environment variables
+.env
+.env.local
+.env.*.local
+**/*.env*
