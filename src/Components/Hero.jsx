@@ -3,7 +3,7 @@ import React from "react";
 export function Hero(){
     return(
         <>
-        <div className="h-screen grid justify-center justify-self-center items-center align-middle mt-0 p-10 lg:p-20 bg-linear-to-b from-[#FFF8DC] to-white w-screen ">
+        <div className="h-screen grid justify-center justify-self-center items-center align-middle mt-0 p-10 lg:p-20 bg-linear-to-b from-[#FFF8DC] via-75% to-white w-screen ">
 
             <div className=" w-full sm:w-[75%] lg:w-[65%] justify-self-center align-middle items-center mb-5">
                 <div className=" w-full justify-self-center align-middle items-center p-5">
