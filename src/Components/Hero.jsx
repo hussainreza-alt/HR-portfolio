@@ -3,7 +3,7 @@ import React from "react";
 export function Hero(){
     return(
         <>
-        <div className="h-screen grid justify-center justify-self-center items-center align-middle mt-0 p-10 lg:p-20 bg-[#FFF8DC] w-screen ">
+        <div className="h-screen grid justify-center justify-self-center items-center align-middle mt-0 p-10 lg:p-20 bg-linear-to-b from-[#FFF8DC] to-white w-screen ">
 
             <div className=" w-full sm:w-[75%] lg:w-[65%] justify-self-center align-middle items-center mb-5">
                 <div className=" w-full justify-self-center align-middle items-center p-5">
@@ -16,14 +16,14 @@ export function Hero(){
                     <a href="" className="w-fit p-0 mr-2 bg-none border-none">
                         <div id="btn1" onClick={(e) => {
                             e.preventDefault();
-                            document.getElementById("work").scrollIntoView({behavior: "smooth"})}} className=" p-4 sm:w-[20vh] md:p-4 lg:min-w-[30vh] lg:max-w-fit text-center rounded-2xl bg-black font-semibold text-[#FFF8DC] cursor-pointer outline-1 outline-black">
+                            document.getElementById("work").scrollIntoView({behavior: "smooth"})}} className=" p-4 sm:w-[20vh] md:p-4 lg:min-w-[30vh] lg:max-w-fit text-center rounded-2xl bg-black font-semibold text-white cursor-pointer outline-1 outline-black">
                             <p>View Work</p>
                         </div>
                     </a>
                     <a href="" className="w-fit border-none ml-2 bg-none">
                         <div onClick={(e) => {
                             e.preventDefault();
-                            document.getElementById("contact").scrollIntoView({behavior: "smooth"})}} id="btn2" className="btn sm:w-[20vh] p-4 lg:min-w-[30vh] lg:max-w-fit text-center rounded-2xl bg-[#FFF8DC] font-semibold text-black outline-1 outline-black cursor-pointer ">
+                            document.getElementById("contact").scrollIntoView({behavior: "smooth"})}} id="btn2" className="btn sm:w-[20vh] p-4 lg:min-w-[30vh] lg:max-w-fit text-center rounded-2xl bg-white font-semibold text-black outline-1 outline-black cursor-pointer ">
                             <p>Contact</p>
                         </div>
                     </a>
