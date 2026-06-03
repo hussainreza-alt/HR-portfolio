@@ -1,0 +1,58 @@
+body, header {
+  font-family: 'Inter', sans-serif;
+}
+
+#btn1, #btn2{
+  z-index: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  position: relative;
+
+}
+#btn1:hover{
+  color: black;
+  transition: all 0.5;
+}
+#btn2:hover{
+  color: white;
+  transition: ease-in 1;
+}
+#btn1:after {
+ content: "";
+ background: white;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ transition: all 0.5s;
+}
+
+#btn2:after {
+ content: "";
+ background: black;
+ position: absolute;
+ z-index: -1;
+ left: -20%;
+ right: -20%;
+ top: 0;
+ bottom: 0;
+ transform: skewX(-45deg) scale(0, 1);
+ outline: none;
+ transition: all 0.5s;
+}
+
+#btn1:hover:after, #btn2:hover:after{
+ transform: skewX(-45deg) scale(1, 1);
+ -webkit-transition: all 0.5s;
+ transition: all 0.5s;
+}
+
+.mini{
+  color: black;
+  font-weight: 500;
+  font-family: "inter", sans-serif;
+}
